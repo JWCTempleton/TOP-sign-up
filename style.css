@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+.side-hero {
+    
+    width: 33.33vw;
+    height: 100vh;
+    background-image: url(./img/side-img.jpg);
+}
+
+.side-hero__text {
+    background-color: rgba(0,0,0,.6);
+    height: 50px;
+    width: 100%;
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up {
+    background-color: coral;
+    width: 66.66vw;
+    height: 100vh;
+}
