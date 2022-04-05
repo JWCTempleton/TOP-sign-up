@@ -20,37 +20,49 @@
         </p>
       </div>
       <div class="sign-up">
-        <p class="sign-up__intro">
+        <p class="intro">
           This is not a real online service! You know you need something like
           this in your life to help you realize your deepest dreams. <br />Sign
           up <em>now</em> to get started.
         </p>
-        <p class="sign-up__intro-2">You <em>know</em> you want to.</p>
-        <p class="sign-up__cta">Let's do this!</p>
+        <p class="intro">You <em>know</em> you want to.</p>
+        <p class="intro">Let's do this!</p>
 
-        <form action="#" method="post">
-          <div class="nameForm">
-            <label for="firstName">First Name:</label>
-            <input type="text" id="firstName" name="first_name" />
-            <label for="lastName">Last Name:</label>
-            <input type="text" id="lastName" name="last_name" />
+        <form action="#" method="post" class="sign-up__form">
+          <div class="formRow">
+            <div class="form-element">
+              <label for="firstName">First Name:</label>
+              <input type="text" id="firstName" name="first_name" />
+            </div>
+            <div class="form-element">
+              <label for="lastName">Last Name:</label>
+              <input type="text" id="lastName" name="last_name" />
+            </div>
           </div>
-          <div class="infoForm">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" />
-            <label for="phoneNumber">Phone Number:</label>
-            <input type="tel" id="phoneNumber" name="phoneNumber" />
+          <div class="formRow">
+            <div class="form-element">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" />
+            </div>
+            <div class="form-element">
+              <label for="phoneNumber">Phone Number:</label>
+              <input type="tel" id="phoneNumber" name="phoneNumber" />
+            </div>
           </div>
-          <div class="passwordForm">
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required />
-            <label for="password">Confirm Password:</label>
-            <input
-              type="password"
-              id="confirm_password"
-              name="password"
-              required
-            />
+          <div class="formRow">
+            <div class="form-element">
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required />
+            </div>
+            <div class="form-element">
+              <label for="password">Confirm Password:</label>
+              <input
+                type="password"
+                id="confirm_password"
+                name="password"
+                required
+              />
+            </div>
           </div>
         </form>
         <button class="create-account">Create Account</button>
