@@ -53,10 +53,11 @@
 }
 
 .intro {
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     font-family: sans-serif;
     font-weight: 600;
-    margin: 16px 5vw 16px 5vw;
+    margin: 16px 12vw 16px 5vw;
+    line-height: 24px;
 }
 
 .intro:first-child {
@@ -74,8 +75,24 @@ input,label {
 
 .formRow {
     display: flex;
+    margin: 1.2vw 5vw;
 }
 
+.form-element {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: rgb(86, 83, 83);
+    margin-right: 5vw;
+    font-size: 14px;
+}
+
+input {
+    width: 20vw;
+    padding: 4px 6px;
+    border-radius: 5px;
+    border: 1px solid rgb(100,100,100);
+    margin-top: 6px;
+}
 .sign-up {
     
     width: 66.66vw;
