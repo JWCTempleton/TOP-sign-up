@@ -17,17 +17,23 @@
     background-position: 40% 60%;
 }
 
+.side-img {
+    height: 16vh;
+    margin-right: 18px;
+}
 .side-hero__text {
     background-color: rgba(0,0,0,.44);
-    height: 100px;
+    height: auto;
     width: 100%;
     margin-top: 125px;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 48px;
+    font-size: 16vh;
     font-family: Norse;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .sign-up {
