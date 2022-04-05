@@ -120,6 +120,7 @@ input {
 .create-account:hover {
     background-color: #76925c;
     border-style: none;
+    cursor: pointer;
 }
 
 .log-in {
